@@ -128,19 +128,28 @@
         align-items: center;
         justify-content: center;
         gap: 50px;
+        max-width: auto;
+        height: 75px;
         font-family: "Inter";
         font-weight: 400;
-        border-radius: 25%;
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
+        background-color: #222222;
     }
 
     footer a {
         display: flex;
         align-items: center;
         margin-bottom: 20px;
+        background-color: #222222;
+        justify-content: center;
+        flex-direction: column;
     }
 
     footer a i {
         margin-right: 8px;
+        background-color: #222222;
+        justify-content: center;
     }
 
     footer a:hover {
